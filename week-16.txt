@@ -1,0 +1,46 @@
+Nuoli funktion fyntaksi:
+
+function = () => {
+
+}
+
+Tavalinen funktio:
+
+function functionName(...args) {
+
+}
+
+Argumenttien määrittely parametreinä funktiossa:
+
+function functionName(...args) {
+    return function() {
+        return undefined;
+    };
+}
+
+const multiply = (a, b) => (a * b);
+let result = multiply(1, 2);
+
+Globaali skope:
+
+let a = 3;
+
+function exponetent(a) {
+    let result = a * a;
+    return result;
+}
+
+Paikallinen skope:
+
+function exponetent(a) {
+  let result = a * a;
+  return result;
+}
+
+exponetent(3)
+
+
+
+
+
+
