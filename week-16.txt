@@ -57,3 +57,10 @@ variableName = 5;
 
 
 
+ForEach metodi:
+
+let myArray = [];
+
+myArray.ForEach(index,element,array) => {
+    array[index] = element;
+}
